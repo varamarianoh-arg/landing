@@ -16,7 +16,7 @@ const EntrySection = () => {
         >
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
           <span className="text-xs font-mono text-muted-foreground tracking-wider uppercase">
-            Software de gestión clínica
+            Software para empresas de salud
           </span>
         </motion.div>
 
@@ -27,9 +27,9 @@ const EntrySection = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-[0.95] tracking-tight mb-6"
         >
-          <span className="text-foreground">Tu sistema de gestión</span>
+          <span className="text-foreground">Gestión y atención,</span>
           <br />
-          <span className="text-gradient">Designed by the lab for the lab.</span>
+          <span className="text-gradient">en un solo ecosistema.</span>
         </motion.h1>
 
         <motion.p
@@ -38,8 +38,8 @@ const EntrySection = () => {
           transition={{ delay: 0.7, duration: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          FoxieLab optimiza tus procesos de Gestión.
-          Control total del flujo de dinero de tu laboratorio.
+          FoxieLab combina el ERP que ordena la operación de tu empresa de salud
+          con el chatbot que atiende a tus pacientes.
           <br className="hidden md:block" />
           <span className="text-foreground font-medium"> Sin papeles. Sin planillas complicadas. Sin errores.</span>
         </motion.p>
@@ -58,10 +58,10 @@ const EntrySection = () => {
             Agendar demo gratuita
           </a>
           <a
-            href="#producto"
+            href="#productos"
             className="px-8 py-3.5 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-card transition-colors"
           >
-            Ver cómo funciona
+            Ver productos
           </a>
         </motion.div>
 

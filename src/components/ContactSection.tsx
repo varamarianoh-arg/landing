@@ -54,7 +54,7 @@ const ContactSection = () => {
           <h2 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-4">
             ¿Listo para modernizar
             <br />
-            <span className="text-gradient">tu laboratorio?</span>
+            <span className="text-gradient">tu empresa de salud?</span>
           </h2>
           <p className="text-muted-foreground text-lg mb-12">
             Agendá una demo personalizada de 20 minutos. Sin compromiso.
@@ -95,17 +95,17 @@ const ContactSection = () => {
                     name="email"
                     required
                     className="w-full px-4 py-3 rounded-lg bg-muted border border-border text-foreground text-sm focus:outline-none focus:border-primary/50 transition-colors"
-                    placeholder="tu@laboratorio.com"
+                    placeholder="tu@empresa.com"
                   />
                 </div>
               </div>
               <div>
-                <label className="text-sm text-muted-foreground mb-1.5 block">Laboratorio</label>
+                <label className="text-sm text-muted-foreground mb-1.5 block">Empresa</label>
                 <input
                   type="text"
-                  name="laboratorio"
+                  name="empresa"
                   className="w-full px-4 py-3 rounded-lg bg-muted border border-border text-foreground text-sm focus:outline-none focus:border-primary/50 transition-colors"
-                  placeholder="Nombre del laboratorio"
+                  placeholder="Nombre de tu empresa"
                 />
               </div>
               <div>

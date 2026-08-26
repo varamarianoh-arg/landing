@@ -30,9 +30,9 @@ export function SecurityModal({ children }: { children: React.ReactNode }) {
                                 <span className="w-2 h-2 rounded-full bg-primary" />
                                 Ley 25.326 — Protección de Datos Personales (Argentina)
                             </h3>
-                            <p className="mb-3">Es la ley principal que aplica a tu laboratorio. Los puntos más importantes:</p>
+                            <p className="mb-3">Es la ley principal que aplica a tu empresa de salud. Los puntos más importantes:</p>
                             <ul className="list-disc pl-5 space-y-2 marker:text-primary/50">
-                                <li>Podés recolectar y tratar datos de salud de pacientes, siempre que sea para la finalidad del laboratorio y respetando el secreto profesional (Art. 8).</li>
+                                <li>Podés recolectar y tratar datos de salud de pacientes, siempre que sea para la finalidad de tu empresa y respetando el secreto profesional (Art. 8).</li>
                                 <li><strong>Estás obligado legalmente</strong> a adoptar medidas técnicas y organizativas para garantizar seguridad y confidencialidad (Art. 9). No es opcional.</li>
                                 <li>No podés compartir datos de pacientes con terceros sin consentimiento previo, expreso e informado del paciente (Art. 11).</li>
                                 <li>Debés inscribir tu base de datos ante la AAIP (Agencia de Acceso a la Información Pública). Es un trámite gratuito y obligatorio.</li>

@@ -32,8 +32,9 @@ const Navbar = () => {
       </div>
 
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center gap-8 text-sm text-muted-foreground bg-background/50 backdrop-blur-md px-6 py-3 rounded-full border border-border/50">
-        <a href="#producto" className="hover:text-foreground transition-colors">Producto</a>
+        <a href="#productos" className="hover:text-foreground transition-colors">Productos</a>
         <a href="#gestion-financiera" className="hover:text-foreground transition-colors">Flujo</a>
+        <a href="#chatbot" className="hover:text-foreground transition-colors">Chatbot</a>
         <a href="#diferencial" className="hover:text-foreground transition-colors">Diferencial</a>
         <a href="#contacto" className="hover:text-foreground transition-colors">Contacto</a>
       </div>

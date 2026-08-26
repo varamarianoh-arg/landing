@@ -1,53 +1,52 @@
-import { motion } from "framer-motion";
+import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { useInView } from "framer-motion";
-import { FlaskConical, BarChart3, FileCheck, Zap, Shield, Blocks, Clock } from "lucide-react";
+import { MessageCircle, Sparkles, CalendarClock, UserCheck, Plug, ShieldCheck } from "lucide-react";
 
 const features = [
   {
-    icon: FlaskConical,
-    title: "Seguimiento de facturación de obras sociales",
-    desc: "Trazabilidad completa desde la presentación de la factura hasta su cobro. Alertas inteligentes.",
+    icon: MessageCircle,
+    title: "Atención instantánea",
+    desc: "Responde consultas de pacientes y clientes las 24 horas, sin tiempos de espera.",
     tag: "CORE",
   },
   {
-    icon: BarChart3,
-    title: "Carga de facturas a proveedores",
-    desc: "Lleva un registro detallado de pagos y pedidos.",
+    icon: Sparkles,
+    title: "Sugerencias con IA en vivo",
+    desc: "Entrenado con el conocimiento de tu empresa para dar respuestas precisas desde el día uno.",
     tag: "INSIGHTS",
   },
   {
-    icon: FileCheck,
-    title: "Gestión de insumos",
-    desc: "Llevá control de tus insumos y generá un pedido digital.",
+    icon: CalendarClock,
+    title: "Agenda de turnos",
+    desc: "Coordina y confirma turnos automáticamente, integrado a tu operación diaria.",
     tag: "OUTPUT",
   },
   {
-    icon: Zap,
-    title: "Integraciones",
-    desc: "Conectá con los sistemas que ya usa tu empresa, LIS y CRM.",
+    icon: UserCheck,
+    title: "Traspaso a agente humano",
+    desc: "Escala la conversación a tu equipo solo cuando realmente hace falta.",
     tag: "CONNECT",
   },
   {
-    icon: Blocks,
-    title: "Sistema modular",
-    desc: "Contratá solo lo que tu empresa necesita.",
+    icon: Plug,
+    title: "Integrable en minutos",
+    desc: "Se conecta a tu sitio, WhatsApp o los canales que ya usa tu empresa.",
     tag: "FLEXIBLE",
   },
   {
-    icon: Clock,
-    title: "Métricas en tiempo real",
-    desc: "Conoce los indicadores de tu empresa minuto a minuto.",
-    tag: "SPEED",
+    icon: ShieldCheck,
+    title: "Datos protegidos",
+    desc: "Maneja información sensible de salud con los resguardos que ese contexto exige.",
+    tag: "SECURITY",
   },
 ];
 
-const FeatureShowcase = () => {
+const ChatbotSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section id="erp" ref={ref} className="relative py-32 px-6">
+    <section id="chatbot" ref={ref} className="relative py-32 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -55,9 +54,9 @@ const FeatureShowcase = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <span className="text-xs font-mono text-primary tracking-widest uppercase">Foxie ERP — Capacidades</span>
+          <span className="text-xs font-mono text-primary tracking-widest uppercase">Foxie Chat</span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 max-w-xl leading-tight">
-            Todo lo que la gestión de tu empresa necesita.
+            Un chatbot que atiende como lo haría tu mejor persona de mostrador.
           </h2>
         </motion.div>
 
@@ -89,4 +88,4 @@ const FeatureShowcase = () => {
   );
 };
 
-export default FeatureShowcase;
+export default ChatbotSection;

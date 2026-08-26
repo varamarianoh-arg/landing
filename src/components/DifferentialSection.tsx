@@ -4,7 +4,7 @@ import { useRef } from "react";
 const differentials = [
   {
     title: "No es un ERP genérico",
-    desc: "Construido por el laboratorio para laboratorios. Cada función pensada para tu flujo real.",
+    desc: "Construido para empresas de salud, no para cualquier empresa. Cada función pensada para tu flujo real.",
     visual: "🧩",
   },
   {
@@ -14,7 +14,7 @@ const differentials = [
   },
   {
     title: "Información es control",
-    desc: "Conocer las métricas de tu laboratorio permite tomar decisiones informadas y estratégicas.",
+    desc: "Conocer las métricas de tu empresa permite tomar decisiones informadas y estratégicas.",
     visual: "📈",
   },
 ];
