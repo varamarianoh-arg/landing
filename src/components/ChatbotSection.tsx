@@ -54,7 +54,7 @@ const ChatbotSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <span className="text-xs font-mono text-primary tracking-widest uppercase">Foxie Chat</span>
+          <span className="text-xs font-mono text-primary tracking-widest uppercase">FoxieBot by Ekko</span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 max-w-xl leading-tight">
             Un chatbot que atiende como lo haría tu mejor persona de mostrador.
           </h2>

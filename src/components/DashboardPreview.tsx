@@ -87,7 +87,7 @@ const DashboardPreview = () => {
               </div>
               <div className="flex-1 flex justify-center">
                 <div className="text-[11px] font-mono text-muted-foreground bg-secondary/60 px-4 py-1 rounded-md">
-                  app.foxielab.io/dashboard
+                  app.ekkocare.io/dashboard
                 </div>
               </div>
               <div className="w-12" />

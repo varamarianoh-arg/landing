@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Heart } from "lucide-react";
 
 const EntrySection = () => {
   return (
@@ -14,9 +15,9 @@ const EntrySection = () => {
           transition={{ delay: 0.3 }}
           className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full border border-border bg-card/50 backdrop-blur-sm"
         >
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse-glow" />
+          <Heart className="w-3.5 h-3.5 text-primary fill-primary" />
           <span className="text-xs font-mono text-muted-foreground tracking-wider uppercase">
-            Software para empresas de salud
+            Ecosystem Health Tech
           </span>
         </motion.div>
 
@@ -35,11 +36,20 @@ const EntrySection = () => {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.7, duration: 0.6 }}
+          transition={{ delay: 0.65, duration: 0.6 }}
+          className="text-base md:text-lg text-foreground/70 max-w-2xl mx-auto mb-6 leading-relaxed"
+        >
+          Redefiniendo la gestión integral de la salud mediante soluciones digitales interconectadas e inteligentes.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.8, duration: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          FoxieLab combina el ERP que ordena la operación de tu empresa de salud
-          con el chatbot que atiende a tus pacientes.
+          EkkoCare combina Ekko OS, el sistema que ordena la operación de tu empresa de salud,
+          con FoxieBot, el chatbot que atiende a tus pacientes.
           <br className="hidden md:block" />
           <span className="text-foreground font-medium"> Sin papeles. Sin planillas complicadas. Sin errores.</span>
         </motion.p>

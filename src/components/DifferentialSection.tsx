@@ -32,7 +32,7 @@ const DifferentialSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <span className="text-xs font-mono text-primary tracking-widest uppercase">¿Por qué FoxieLab?</span>
+          <span className="text-xs font-mono text-primary tracking-widest uppercase">¿Por qué EkkoCare?</span>
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 max-w-lg leading-tight">
             Diferente por diseño.
           </h2>

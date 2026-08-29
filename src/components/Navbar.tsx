@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="flex items-center">
         <motion.img
           src="/fox-logo-true-alpha.png"
-          alt="FoxieLab Logo"
+          alt="EkkoCare Logo"
           style={{ height: logoHeight }}
           className="w-auto object-contain py-2"
         />
@@ -27,7 +27,7 @@ const Navbar = () => {
           style={{ opacity: textOpacity, marginLeft: textMarginLeft }}
           className="text-foreground font-semibold text-xl sm:text-3xl tracking-tight"
         >
-          FoxieLab
+          EkkoCare
         </motion.span>
       </div>
 
