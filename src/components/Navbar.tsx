@@ -6,7 +6,7 @@ const Navbar = () => {
   const { scrollY } = useScroll();
 
   // Transform values based on scroll position (0px to 150px)
-  const logoHeight = useTransform(scrollY, [0, 150], ["2.75rem", "2.25rem"]);
+  const logoHeight = useTransform(scrollY, [0, 150], ["3.75rem", "3rem"]);
   const textOpacity = useTransform(scrollY, [0, 150], [1, 0]);
   const textMarginLeft = useTransform(scrollY, [0, 150], ["0.75rem", "1rem"]);
   const headerBg = useTransform(scrollY, [0, 150], ["rgba(0,0,0,0)", "rgba(0,0,0,0.15)"]);
