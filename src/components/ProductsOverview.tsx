@@ -11,25 +11,25 @@ interface Product {
   cta: string;
   href: string;
   icon: typeof ClipboardList;
-  palette: "ekko" | "primary";
+  palette: "cenit" | "primary";
 }
 
 const products: Product[] = [
   {
     tag: "01 — GESTIÓN",
-    name: "Ekko OS",
+    name: "Cénit OS",
     tagline: "Tu operación, en un solo lugar.",
     description:
       "Facturación, cobranzas, cuentas por pagar y métricas conectadas desde el primer día, pensado para el flujo real de una empresa de salud.",
     features: ["Panel unificado en tiempo real", "Roles y permisos por equipo", "Reportes exportables"],
-    cta: "Ver Ekko OS",
+    cta: "Ver Cénit OS",
     href: "#erp",
     icon: ClipboardList,
-    palette: "ekko",
+    palette: "cenit",
   },
   {
     tag: "02 — ATENCIÓN",
-    name: "FoxieBot by Ekko",
+    name: "FoxieBot by Cénit",
     tagline: "Respuestas al instante, sin perder el toque humano.",
     description:
       "Un chatbot con IA que atiende consultas de pacientes, agenda turnos y escala a tu equipo solo cuando hace falta.",
@@ -43,13 +43,13 @@ const products: Product[] = [
 
 // Tailwind classes are per-palette literals (not dynamically built) so the JIT compiler can see them.
 const paletteClasses = {
-  ekko: {
-    border: "hover:border-[hsl(var(--ekko))]/40",
-    glow: "bg-[hsl(var(--ekko))]/10",
-    iconBg: "bg-[hsl(var(--ekko))]/10",
-    icon: "text-[hsl(var(--ekko))]",
-    dot: "bg-[hsl(var(--ekko))]",
-    cta: "text-[hsl(var(--ekko))]",
+  cenit: {
+    border: "hover:border-[hsl(var(--cenit))]/40",
+    glow: "bg-[hsl(var(--cenit))]/10",
+    iconBg: "bg-[hsl(var(--cenit))]/10",
+    icon: "text-[hsl(var(--cenit))]",
+    dot: "bg-[hsl(var(--cenit))]",
+    cta: "text-[hsl(var(--cenit))]",
   },
   primary: {
     border: "hover:border-primary/40",
@@ -76,12 +76,12 @@ const ProductsOverview = () => {
 
   return (
     <section id="productos" ref={ref} className="relative py-24 md:py-32 px-6 overflow-hidden">
-      {/* Diagonal wash: Ekko blue (top-left) -> FoxieBot teal (bottom-right) */}
+      {/* Diagonal wash: Cénit blue (top-left) -> FoxieBot teal (bottom-right) */}
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "linear-gradient(135deg, hsl(var(--ekko) / 0.16) 0%, hsl(var(--ekko) / 0.07) 35%, transparent 50%, hsl(var(--primary) / 0.07) 65%, hsl(var(--primary) / 0.16) 100%)",
+            "linear-gradient(135deg, hsl(var(--cenit) / 0.16) 0%, hsl(var(--cenit) / 0.07) 35%, transparent 50%, hsl(var(--primary) / 0.07) 65%, hsl(var(--primary) / 0.16) 100%)",
         }}
       />
 
@@ -93,7 +93,7 @@ const ProductsOverview = () => {
           className="mb-14 md:mb-16 max-w-2xl"
         >
           <span className="text-xs font-mono text-primary tracking-widest uppercase">Nuestros productos</span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 leading-tight">
             Dos productos, un mismo objetivo: simplificar tu empresa de salud.
           </h2>
         </motion.div>

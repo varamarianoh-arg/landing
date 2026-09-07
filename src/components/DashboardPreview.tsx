@@ -58,7 +58,7 @@ const DashboardPreview = () => {
           className="mb-12 text-center"
         >
           <span className="text-xs font-mono text-primary tracking-widest uppercase">Vista previa</span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 leading-tight">
+          <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 leading-tight">
             Tus finanzas, en una pantalla
           </h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto text-sm md:text-base">
@@ -87,7 +87,7 @@ const DashboardPreview = () => {
               </div>
               <div className="flex-1 flex justify-center">
                 <div className="text-[11px] font-mono text-muted-foreground bg-secondary/60 px-4 py-1 rounded-md">
-                  app.ekkocare.io/dashboard
+                  app.cenitcare.io/dashboard
                 </div>
               </div>
               <div className="w-12" />
@@ -131,7 +131,7 @@ const DashboardPreview = () => {
                       <kpi.icon className={`w-3.5 h-3.5 ${kpi.color}`} />
                       <span className="text-[10px] text-muted-foreground uppercase tracking-wider">{kpi.label}</span>
                     </div>
-                    <div className="text-xl md:text-2xl font-bold text-foreground">
+                    <div className="text-xl md:text-2xl font-bold text-foreground tabular-nums">
                       <AnimatedCounter target={kpi.value} prefix={kpi.prefix} suffix={kpi.suffix} duration={1.5} />
                     </div>
                   </motion.div>

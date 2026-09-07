@@ -48,7 +48,7 @@ const EntrySection = () => {
           transition={{ delay: 0.8, duration: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          EkkoCare combina Ekko OS, el sistema que ordena la operación de tu empresa de salud,
+          CénitCare combina Cénit OS, el sistema que ordena la operación de tu empresa de salud,
           con FoxieBot, el chatbot que atiende a tus pacientes.
           <br className="hidden md:block" />
           <span className="text-foreground font-medium"> Sin papeles. Sin planillas complicadas. Sin errores.</span>

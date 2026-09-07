@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -46,7 +46,7 @@
     --sidebar-ring: 175 80% 50%;
 
     /* Custom tokens */
-    --ekko: 224 70% 55%;
+    --cenit: 224 70% 55%;
     --glow: 175 80% 50%;
     --surface-elevated: 230 12% 10%;
     --gradient-primary: linear-gradient(135deg, hsl(175 80% 50%), hsl(190 90% 45%));

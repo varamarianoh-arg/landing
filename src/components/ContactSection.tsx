@@ -51,7 +51,7 @@ const ContactSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground leading-tight mb-4">
+          <h2 className="text-3xl md:text-5xl font-semibold text-foreground leading-tight mb-4">
             ¿Listo para modernizar
             <br />
             <span className="text-gradient">tu empresa de salud?</span>

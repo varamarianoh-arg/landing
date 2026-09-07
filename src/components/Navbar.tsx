@@ -1,13 +1,14 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
+import { Wordmark } from "./Wordmark";
 
 const Navbar = () => {
   const { scrollY } = useScroll();
 
   // Transform values based on scroll position (0px to 150px)
-  const logoHeight = useTransform(scrollY, [0, 150], ["12rem", "8rem"]);
+  const logoHeight = useTransform(scrollY, [0, 150], ["2.75rem", "2.25rem"]);
   const textOpacity = useTransform(scrollY, [0, 150], [1, 0]);
-  const textMarginLeft = useTransform(scrollY, [0, 150], ["-2rem", "1rem"]);
+  const textMarginLeft = useTransform(scrollY, [0, 150], ["0.75rem", "1rem"]);
   const headerBg = useTransform(scrollY, [0, 150], ["rgba(0,0,0,0)", "rgba(0,0,0,0.15)"]);
   const headerBackdrop = useTransform(scrollY, [0, 150], ["blur(0px)", "blur(12px)"]);
 
@@ -18,17 +19,17 @@ const Navbar = () => {
     >
       <div className="flex items-center">
         <motion.img
-          src="/fox-logo-true-alpha.png"
-          alt="EkkoCare Logo"
+          src="/cenitcare-isotipo-oscuro.svg"
+          alt="CénitCare"
           style={{ height: logoHeight }}
           className="w-auto object-contain py-2"
         />
-        <motion.span
-          style={{ opacity: textOpacity, marginLeft: textMarginLeft }}
-          className="text-foreground font-semibold text-xl sm:text-3xl tracking-tight"
+        <motion.div
+          style={{ opacity: textOpacity, marginLeft: textMarginLeft, height: logoHeight }}
+          className="text-foreground"
         >
-          EkkoCare
-        </motion.span>
+          <Wordmark className="h-full w-auto" />
+        </motion.div>
       </div>
 
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center gap-8 text-sm text-muted-foreground bg-background/50 backdrop-blur-md px-6 py-3 rounded-full border border-border/50">

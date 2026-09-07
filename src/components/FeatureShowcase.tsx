@@ -55,8 +55,8 @@ const FeatureShowcase = () => {
           transition={{ duration: 0.6 }}
           className="mb-16"
         >
-          <span className="text-xs font-mono text-primary tracking-widest uppercase">Ekko OS — Capacidades</span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 max-w-xl leading-tight">
+          <span className="text-xs font-mono text-primary tracking-widest uppercase">Cénit OS — Capacidades</span>
+          <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 max-w-xl leading-tight">
             Todo lo que la gestión de tu empresa necesita.
           </h2>
         </motion.div>

@@ -47,7 +47,7 @@ const FlowSection = () => {
           className="text-center mb-10"
         >
           <span className="text-xs font-mono text-primary tracking-widest uppercase">Ecosistema Financiero</span>
-          <h2 className="text-3xl md:text-5xl font-bold text-foreground mt-3 leading-tight max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 leading-tight max-w-3xl mx-auto">
             El control real de tus ingresos y egresos.
           </h2>
         </motion.div>
