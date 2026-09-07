@@ -31,7 +31,7 @@ const sampleRows = [
   { id: "FAC-4822", patient: "PAMI", test: "Liquidación Feb", status: "done", time: "08:34" },
   { id: "FAC-4823", patient: "Swiss Medical", test: "Por facturar", status: "processing", time: "09:01" },
   { id: "FAC-4824", patient: "Medifé", test: "Rechazado", status: "processing", time: "09:15" },
-  { id: "ORD-1025", patient: "Galeno", test: "Insumos", status: "pending", time: "09:30" },
+  { id: "ORD-1025", patient: "Galeno", test: "Reactivos", status: "pending", time: "09:30" },
   { id: "ORD-1026", patient: "Sancor Salud", test: "Pago rebotado", status: "overdue", time: "09:42" },
 ];
 

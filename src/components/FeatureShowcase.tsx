@@ -19,25 +19,25 @@ const features = [
   {
     icon: FileCheck,
     title: "Gestión de insumos",
-    desc: "Llevá control de tus insumos y generá un pedido digital.",
+    desc: "Llevá control de tus reactivos y generá un pedido digital.",
     tag: "OUTPUT",
   },
   {
     icon: Zap,
     title: "Integraciones",
-    desc: "Conectá con los sistemas que ya usa tu empresa, LIS y CRM.",
+    desc: "Conectá con sistemas de tu laboratorio, LIS y CRM.",
     tag: "CONNECT",
   },
   {
     icon: Blocks,
     title: "Sistema modular",
-    desc: "Contratá solo lo que tu empresa necesita.",
+    desc: "Contratá solo lo que tu laboratorio necesita.",
     tag: "FLEXIBLE",
   },
   {
     icon: Clock,
     title: "Métricas en tiempo real",
-    desc: "Conoce los indicadores de tu empresa minuto a minuto.",
+    desc: "Conoce los indicadores de tu laboratorio minuto a minuto.",
     tag: "SPEED",
   },
 ];
@@ -57,7 +57,7 @@ const FeatureShowcase = () => {
         >
           <span className="text-xs font-mono text-primary tracking-widest uppercase">Cénit OS — Capacidades</span>
           <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 max-w-xl leading-tight">
-            Todo lo que la gestión de tu empresa necesita.
+            Todo lo que la gestión de tu laboratorio necesita.
           </h2>
         </motion.div>
 

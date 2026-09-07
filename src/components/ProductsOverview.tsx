@@ -20,7 +20,7 @@ const products: Product[] = [
     name: "Cénit OS",
     tagline: "Tu operación, en un solo lugar.",
     description:
-      "Facturación, cobranzas, cuentas por pagar y métricas conectadas desde el primer día, pensado para el flujo real de una empresa de salud.",
+      "Facturación, cobranzas, cuentas por pagar y métricas conectadas desde el primer día, pensado para el flujo real de un laboratorio.",
     features: ["Panel unificado en tiempo real", "Roles y permisos por equipo", "Reportes exportables"],
     cta: "Ver Cénit OS",
     href: "#erp",
@@ -94,7 +94,7 @@ const ProductsOverview = () => {
         >
           <span className="text-xs font-mono text-primary tracking-widest uppercase">Nuestros productos</span>
           <h2 className="text-3xl md:text-5xl font-semibold text-foreground mt-3 leading-tight">
-            Dos productos, un mismo objetivo: simplificar tu empresa de salud.
+            Dos productos, un mismo objetivo: simplificar tu laboratorio.
           </h2>
         </motion.div>
 

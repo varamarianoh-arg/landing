@@ -12,7 +12,7 @@ const features = [
   {
     icon: Sparkles,
     title: "Sugerencias con IA en vivo",
-    desc: "Entrenado con el conocimiento de tu empresa para dar respuestas precisas desde el día uno.",
+    desc: "Entrenado con el conocimiento de tu laboratorio para dar respuestas precisas desde el día uno.",
     tag: "INSIGHTS",
   },
   {
@@ -30,7 +30,7 @@ const features = [
   {
     icon: Plug,
     title: "Integrable en minutos",
-    desc: "Se conecta a tu sitio, WhatsApp o los canales que ya usa tu empresa.",
+    desc: "Se conecta a tu sitio, WhatsApp o los canales que ya usa tu laboratorio.",
     tag: "FLEXIBLE",
   },
   {

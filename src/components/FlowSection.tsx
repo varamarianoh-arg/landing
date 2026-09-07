@@ -26,7 +26,7 @@ const modules = [
   },
   {
     title: "Rentabilidad y Analítica Financiera",
-    desc: "Tableros de control precisos sobre la salud financiera de tu empresa. Proyecciones y análisis de márgenes operativos para tomar decisiones reales y estratégicas.",
+    desc: "Tableros de control precisos sobre la salud financiera de tu laboratorio. Proyecciones y análisis de márgenes operativos para tomar decisiones reales y estratégicas.",
     icon: LineChart,
     className: "md:col-span-3",
     accent: "bg-gradient-to-r from-primary/10 to-transparent border-primary/20",
