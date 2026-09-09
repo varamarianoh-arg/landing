@@ -5,7 +5,13 @@ const EntrySection = () => {
     <section className="relative w-full overflow-hidden pt-24">
       <div className="grid grid-cols-1 lg:grid-cols-[520px_minmax(0,1fr)] items-stretch">
         {/* Left rail: brand panel */}
-        <div className="relative overflow-hidden bg-[#0E141B] border-b lg:border-b-0 lg:border-r border-border flex flex-col justify-center px-8 py-16 lg:py-0 lg:min-h-screen">
+        <div className="relative overflow-hidden bg-[#0E141B] border-b lg:border-b-0 border-border flex flex-col justify-center px-8 py-16 lg:py-0 lg:min-h-screen">
+          {/* Soft fade into the page background instead of a hard edge */}
+          <div
+            className="hidden lg:block absolute inset-y-0 right-0 w-32 pointer-events-none"
+            style={{ background: "linear-gradient(to right, transparent, hsl(var(--background)))" }}
+            aria-hidden="true"
+          />
           <svg
             className="absolute pointer-events-none"
             style={{ left: 26, top: 66, width: 470, height: 470 }}
@@ -55,7 +61,7 @@ const EntrySection = () => {
         </div>
 
         {/* Right: headline + copy */}
-        <div className="flex flex-col justify-center px-6 md:px-14 py-16 md:py-24">
+        <div className="flex flex-col justify-center px-6 md:px-14 lg:pl-28 lg:pr-16 py-16 md:py-24">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
