@@ -35,7 +35,7 @@ const AgentPanel = () => (
       <div className="fb-panel">
         <div className="fb-card">
           <div className="fb-card-head">
-            <span className="fb-mono">Anoche · 21:00 a 07:00</span>
+            <span className="fb-mono">Mientras tanto · 21:00 a 07:00</span>
             <div className="fb-filters" aria-label="Filtros del panel">
               <span className="fb-fchip on">
                 Todas <b>27</b>

@@ -15,7 +15,7 @@ const FoxieHero = () => (
             Agendar demo gratuita
           </a>
           <a className="fb-btn fb-btn-ghost" href="#panel">
-            Ver qué resolvió anoche
+            Ver qué resolvió por vos
           </a>
         </div>
         <p className="fb-proof">
