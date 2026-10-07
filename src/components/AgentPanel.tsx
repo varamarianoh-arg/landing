@@ -25,7 +25,7 @@ const AgentPanel = () => (
     <div className="fb-wrap">
       <div className="fb-sec-head">
         <p className="fb-mono fb-eyebrow">Panel de agentes</p>
-        <h2>Lo que FoxieBot resolvió anoche.</h2>
+        <h2>Lo que FoxieBot resolvió mientras sos productivo en otra cosa.</h2>
         <p>
           Cada conversación queda en el panel con su resultado. Lo que la IA resuelve no llega a tu equipo; lo que
           necesita criterio profesional pasa a un agente con el contexto completo.
