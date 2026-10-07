@@ -6,7 +6,7 @@ const FoxieHero = () => (
         <h1>El paciente pregunta, FoxieBot contesta.</h1>
         <p className="fb-tagline">Menos teléfono, más laboratorio.</p>
         <p className="fb-lead">
-          FoxieBot atiende a los pacientes afuera: turnos de extracción, indicaciones de ayuno, entrega de resultados y
+          FoxieBot atiende a los pacientes por vos: turnos de extracción, indicaciones de ayuno, entrega de resultados y
           las preguntas que se repiten todos los días. Cuando una consulta necesita criterio profesional, la pasa a tu
           equipo con la conversación completa.
         </p>
